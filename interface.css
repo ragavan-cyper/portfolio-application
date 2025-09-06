@@ -28,23 +28,47 @@
         /* Input box */
         #cityInput {
             width: 100%;
-            max-width: 400px;
+            max-width: 200px;
             display: block;
             margin: 0 auto;
             padding: 0.5rem 1rem;
             font-size: 1rem;
             border-radius: 6px;
-            border: 1px solid #ccc;
+            border: none;
+            /* border: 1px solid #ccc; */
+            text-align: center;
+            background-color: #d407c3;
+            color: rgb(227, 227, 241);
+           
+        }
+
+        #cityInput::placeholder {
+            color: #eee;
+            font-style: italic;
         }
 
         /* Button */
-        #weatherbtn {
-            display: block;
-            margin: 0.5rem auto;
-            padding: 0.5rem 1.5rem;
-            font-size: 1rem;
-            border-radius: 6px;
+  #weatherbtn {
+            padding: 10px 30px;
+   border: none;
+   border-radius: 12px;
+   font-size: 18px;
+   font-weight: bold;
+   color: #fff;
+   background: linear-gradient(45deg, #ff00cc, #3333ff);
+   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+   cursor: pointer;
+   transition: all 0.6s ease;
         }
+
+        
+
+#weatherbtn:hover {
+   background: linear-gradient(45deg, #3333ff, #ff00cc);
+   transform: scale(1.10);
+   color: aqua;
+}
+
 
         /* Output box */
         #outputBox {
@@ -53,9 +77,10 @@
             margin: 1rem auto;
             padding: 1rem;
             text-align: center;
-            border: 1px solid #ccc;
+            color: rgb(8, 241, 59);
+          
             border-radius: 8px;
-            background-color: #fff;
+           background: linear-gradient(45deg, #ff00cc, #3333ff);
             box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
         }
 
