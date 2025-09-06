@@ -137,3 +137,14 @@ button:hover {
   padding: 8px;
   border-radius: 10px;
 }
+#errorMsg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: rgb(5, 5, 4);
+    user-select: none;
+    font-size: 23px
+
+}
