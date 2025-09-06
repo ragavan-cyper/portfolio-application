@@ -1,0 +1,139 @@
+body{
+      background: linear-gradient(45deg, #ff00cc, #3333ff);
+}
+#inputContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   padding: 10px;
+   color: rgb(247, 241, 241);
+   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 1.5px 6px 0 rgba(0, 0, 0, 0.19);
+   width: 400px;
+   border-radius: 9px 9px 30px 10px;
+   background: #111b47;
+   user-select: none;
+
+}
+
+h2 P{
+    text-align: center;
+    padding: 10px;
+}
+#inputBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+  
+   
+}
+
+#inputBox input {
+   width: 250px;
+   height: 35px;
+   border-radius: 5px;
+   border: none;
+   padding: 5px;
+   font-size: 16px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   background-color: rgb(8, 37, 51);
+   color: violet;
+   cursor: pointer;
+   text-align: center;
+   
+}
+#inputBox input::placeholder {
+   color: rgb(241, 230, 230);
+   opacity: .7;
+   font-size: 10px;
+   padding-left: 5px;
+
+}
+
+#inputBox input:focus {
+   outline: none;
+   box-shadow: 0 0 15px 1px rgb(192, 98, 5);
+}
+#inputContainer h2:hover{
+    background: linear-gradient(45deg, #ff00cc, #22a4ad);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+}
+#inputContainer P:hover{
+    background: linear-gradient(45deg, #00ff80, #db7c0f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+   
+}
+#containerBtn{
+  display: flex;
+  justify-content: center;
+   
+}
+#btn{
+  align-items: center;
+  
+    
+}
+button {
+   padding: 14px 20px;
+   border: none;
+   border-radius: 12px;
+   font-size: 18px;
+   font-weight: bold;
+   color: #fff;
+   background: linear-gradient(45deg, #ff00cc, #3333ff);
+   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+   cursor: pointer;
+   transition: all 0.6s ease;
+   margin-top: 30px;
+}
+
+button:hover {
+   background: linear-gradient(45deg, #3333ff, #ff00cc);
+   transform: scale(1.10);
+   color: aqua;
+}
+#cityName {
+  margin: 25px auto;
+  padding: 20px;
+  width: 380px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease;
+  user-select: none;
+}
+
+#cityName:hover {
+  transform: scale(1.05);
+}
+
+#cityName h2 {
+  margin-bottom: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+#cityName img {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+#cityName p {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.6;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 8px;
+  border-radius: 10px;
+}
